@@ -26,7 +26,7 @@
 - Update balances based on input
 - Clear and intuitive UI
 
-### 🚀 Links
+### Links 🚀 
 
 🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
 
