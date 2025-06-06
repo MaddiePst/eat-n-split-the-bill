@@ -29,7 +29,6 @@
 ### 🚀 Links
 
 🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
-🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
 
 ### 📸 Screenshot
 
