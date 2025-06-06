@@ -17,7 +17,7 @@
 
 ## Overview
 
-### 📚 Features
+### Features
 
 - View and manage a list of friends
 - Add new friends with names and avatars
@@ -26,17 +26,17 @@
 - Update balances based on input
 - Clear and intuitive UI
 
-### Links 🚀 
+### Links 
 
 🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
 
-### 📸 Screenshot
+### Screenshot
 
 ![App Screenshot](./Screenshot%202025-06-06%20115002.png)
 
 ## My Process
 
-### 🧩 Built With
+### Built With
 
 - React (Functional Components + Hooks)
 - JavaScript (ES6+)
@@ -44,7 +44,7 @@
 - Vite (for local development)
 - GitHub Pages (for deployment)
 
-### 🛠️ Elements Used
+### Elements Used
 
 This project allowed me to apply and reinforce several key React concepts:
 
@@ -72,7 +72,7 @@ This project allowed me to apply and reinforce several key React concepts:
 - ✅ Dynamic Styling
 - Conditional class application to highlight selected friends
 
-### 🛠️ Technologies Used
+### Technologies Used
 
 - React (with Hooks)
 - HTML/CSS
