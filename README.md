@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 🍽️ Eat-n-Split the Bill – React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Eat-n-Split** is a React-based bill-splitting component that helps you track shared expenses with friends. Select a friend, enter the bill details, and split it based on who paid. This project demonstrates essential React concepts like state management, conditional rendering, controlled components, and component reuse.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Features](#features)
+  - [Links](#links)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Elements used](#elements-used)
+  - [Technologies Used](#technologies-used)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📚 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View and manage a list of friends
+- Add new friends with names and avatars
+- Select a friend to split a bill
+- Enter bill amounts and who paid
+- Update balances based on input
+- Clear and intuitive UI
 
-### `npm test`
+### 🚀 Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
+🔗 -Live Site [Live App](https://maddiepst.github.io/eat-n-split-the-bill/)
 
-### `npm run build`
+### 📸 Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](./Screenshot%202025-06-06%20115002.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My Process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🧩 Built With
 
-### `npm run eject`
+- React (Functional Components + Hooks)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Vite (for local development)
+- GitHub Pages (for deployment)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🛠️ Elements Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project allowed me to apply and reinforce several key React concepts:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ✅ React Hooks
+- `useState` for managing local component state (selected friend, form inputs, friend list, balances)
+- Functional updates to state when based on previous values (e.g., updating balances)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ✅ Conditional Rendering
+- Show the split bill form only when a friend is selected
+- Toggle the friend selection UI
 
-## Learn More
+- ✅ Controlled Components
+- Form inputs (amounts, who paid) are controlled via state for consistency and predictability
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ✅ Component Composition
+- Split the UI into small, reusable components (FriendList, Friend, FormSplitBill)
+- Use `children` and props to pass data and customize behavior
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ✅ Child-to-Parent Communication
+- Lifted state and used callback props to allow child components (like forms) to update parent state (e.g., selecting or updating a friend)
 
-### Code Splitting
+- ✅ Array Methods
+- Used `.map()` to render lists of friends dynamically
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ✅ Dynamic Styling
+- Conditional class application to highlight selected friends
 
-### Analyzing the Bundle Size
+### 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React (with Hooks)
+- HTML/CSS
+- JavaScript (ES6+)
+- Node.js (development server)
 
-### Making a Progressive Web App
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [React Docs](https://react.dev/learn) - Official React documentation and concepts
+- [MDN Web Docs](https://developer.mozilla.org/) - HTML, CSS, and JavaScript reference
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website: [Madalina Pastiu Portfolio](https://maddiepst.github.io/)
+- LinkedIn: [Madalina Pastiu](https://www.linkedin.com/in/madalina-pastiu-52a01396/)
+- GitHub: [@maddiepst](https://github.com/MaddiePst)
